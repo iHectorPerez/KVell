@@ -10,8 +10,9 @@
 #define RAX 1
 #define ART 2
 #define BTREE 3
+#define PMEM_FPTREE 4
 
-#define MEMORY_INDEX BTREE
+#define MEMORY_INDEX PMEM_FPTREE
 #define PAGECACHE_INDEX BTREE
 
 /* Queue depth management */

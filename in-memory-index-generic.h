@@ -9,6 +9,8 @@
 #include "in-memory-index-art.h"
 #elif MEMORY_INDEX == BTREE
 #include "in-memory-index-btree.h"
+#elif MEMORY_INDEX == PMEM_FPTREE
+#include "in-memory-pmem-index-fptree.h"
 #endif
 
 #endif
